@@ -1,6 +1,6 @@
 ---
 title: Markdown Syntax Guide
-date: 2024-09-01
+date: 2024-09-01T05:34:09+08:00
 authors:
   - name: Shin
     link: https://github.com/shin13
@@ -12,7 +12,7 @@ tags:
   - Markdown
   - Example
   - Guide
-excludeSearch: true
+excludeSearch: false
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
