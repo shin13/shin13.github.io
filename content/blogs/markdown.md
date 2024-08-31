@@ -5,9 +5,6 @@ authors:
   - name: Shin
     link: https://github.com/shin13
     image: https://github.com/shin13.png
-  # - name: Octocat
-  #   link: https://github.com/octocat
-  #   image: https://github.com/octocat.png
 tags:
   - Markdown
   - Example
