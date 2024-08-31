@@ -11,7 +11,7 @@ authors:
 tags:
   - Checklist
 
-excludeSearch: true
+excludeSearch: false
 ---
 
 ## Hit the ground running
@@ -26,13 +26,17 @@ Next steps for building this site:
 - [x] Create an **[About](https://shin13.github.io/about/)** page
 - [x] Create an **[Now](https://shin13.github.io/now/)** page
 - [x] Create a **[Project](https://shin13.github.io/projects/)** page
+- [ ] Add screenshots to assets for project previews
+- [ ] Change Avitar / Logo
+- [ ] Remove zh-CN
+- [ ] Add zh-TW documents
 - Add `menu.main`
     - [x] `About`
     - [x] `Now`
     - [x] `Project`
     - [x] `Blog`
     - [ ] (optional) `Resume`
-- [ ] Add Github link
+- [x] Add Github link
 - [ ] (optional) Add Linkedin link
 
 
