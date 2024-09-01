@@ -4,21 +4,24 @@ layout: hextra-home
 ---
 
 
-{{< hextra/hero-badge >}}
-  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Now</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
+<a href="contact">
+  {{< hextra/hero-badge >}}
+    <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
+    <span> Open to Collaborate </span>
+    {{< icon name="arrow-circle-right" attributes="height=14" >}}
+  {{< /hextra/hero-badge >}}
+</a>
+    
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Hi, I'm Shin Li&nbsp;<br class="sm:hx-block hx-hidden" />
+  Hi, I'm Shin 👋&nbsp;<br class="sm:hx-block hx-hidden" />
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Here are collections of my works and thoughts.&nbsp;<br class="sm:hx-block hx-hidden" />Feel free to look around.
+  Welcome to my website, where you’ll find a collection of my works and thoughts.
+&nbsp;<br class="sm:hx-block hx-hidden" />Feel free to look around!.
 {{< /hextra/hero-subtitle >}}
 </div>
 
