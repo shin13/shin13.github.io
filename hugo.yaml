@@ -1,11 +1,11 @@
 # Configuration
 baseURL: https://shin13.github.io/
 languageCode: en-us
-title: Shin Li > 
+title: Shin Li 
 
 enableRobotsTXT: true
 enableGitInfo: true
-enableEmoji: false
+enableEmoji: true
 hasCJKLanguage: true
 
 services:
@@ -22,17 +22,17 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Hextra
+    title: Shin Li
   zh-tw:
     languageName: 繁體中文
     languageCode: zh-TW
     weight: 2
-    title: Hextra  
+    title: 李芯  
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 3
-    title: Hextra
+    title: 李芯
 
 module:
   # hugoVersion:
