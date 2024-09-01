@@ -20,7 +20,7 @@ layout: hextra-home
 {{< hextra/hero-subtitle >}}
   Welcome to my website!&nbsp;<br class="sm:hx-block hx-hidden" />
   You’ll find a collection of my works and thoughts here.&nbsp;<br class="sm:hx-block hx-hidden" />
-  Feel free to look around!.
+  Feel free to look around! :)
 {{< /hextra/hero-subtitle >}}
 </div>
 
