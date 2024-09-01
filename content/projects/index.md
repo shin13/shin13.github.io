@@ -17,14 +17,14 @@ My ongoing and previous projects and works.
   {{< card
         link="https://shin13.gitbook.io/formulary"
         title="Hospital Formulary"
-        image="https://github.com/shin13/shin13.github.io/assets/images/formulary-screenshot.png" subtitle="Taiwan Adventist hospital formulary gitbook."
+        image="images/formulary-screenshot.png" subtitle="Taiwan Adventist hospital formulary gitbook."
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
         link="https://drive.google.com/file/d/1aoCYwRUAKkCcLyD5Mkih-ah40TKlWsTy/view?usp=sharing"
         title="Scietific Poster at ASHP 2023" subtitle="Effect of an Improved Antimicrobial Stewardship Program at a Regional Hospital in Taiwan"
-        image="https://github.com/shin13/shin13.github.io/assets/images/poster-ashp2023-screenshot.png"
+        image="images/poster-ashp2023-screenshot.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
