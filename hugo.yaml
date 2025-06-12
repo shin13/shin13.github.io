@@ -148,7 +148,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/shin13.github.io/edit/main/content"
+    base: "https://github.com/shin13/shin13.github.io/edit/main/content"
 
   blog:
     list:
