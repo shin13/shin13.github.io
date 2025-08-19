@@ -19,7 +19,7 @@ tags:
   # Type: Tutorial, Review, Solution, Guide, etc.
 draft: true
 summary: "Brief description of the post content"
-# excludeSearch: false  # Set to true if you don't want this indexed
+excludeSearch: false  # Set to true if you don't want this indexed
 ---
 
 ## Introduction
