@@ -3,7 +3,7 @@
 - [English Version](README.md)
 - [繁體中文版本](README.zh-TW.md)
 
-Welcome to my personal website and portfolio, available at [shin13.github.io](https://shin13.github.io/). This site showcases my projects, blog posts, and more about my professional journey.
+Welcome to my personal website, available at [shin13.github.io](https://shin13.github.io/). This site is my personal home on the internet: a place for notes, projects, and current focus across clinical pharmacy, AI systems, research, teaching, and personal knowledge work.
 
 ## Licenses
 
@@ -21,15 +21,16 @@ For more details, please refer to the `LICENSE-CC-BY-SA` file.
 
 ## About This Site
 
-This website serves as a personal portfolio and blog. It features a collection of my projects, thoughts, and experiences, and aims to provide engaging insights and valuable resources.
+This website serves as a personal home and note archive. It collects current focus, writing, projects, and traces of what I build, study, organize, and return to.
 
 ## Getting Started
 
-The site is built using Hugo using [theme/hextra](https://themes.gohugo.io/themes/hextra/). To build it locally:
+The site is built with Hugo and [PaperMod](https://github.com/adityatelange/hugo-PaperMod). To build it locally:
 
-1. Visit [Hugo Documentation](https://gohugo.io/documentation/) for detailed instructions.
-2. To adopt the theme I used, visit [Hextra Demo](https://imfing.github.io/hextra/)
-3. Visit [GitHub pages](https://pages.github.com/) to learn more about hosting your website on GitHub.
+1. Install Hugo Extended.
+2. Run `hugo mod graph` to fetch the theme module.
+3. Run `hugo --minify --cleanDestinationDir` to build the site.
+4. Visit [GitHub Pages](https://pages.github.com/) to learn more about hosting your website on GitHub.
 
 ## Contributing
 

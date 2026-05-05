@@ -1,15 +1,10 @@
 ---
 title: Projects
 description: Things I’ve built, organized, studied, or kept returning to.
-toc: false
-layout: normal
+ShowToc: false
 ---
 
-<div class="hx-mt-4"></div>
-
-<p class="hx-mb-10 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
 Things I’ve built, organized, studied, or kept returning to.
-</p>
 
 These are not only finished products. Some are public tools, some are research traces, and some are small systems that helped me understand a problem better.
 
@@ -19,15 +14,11 @@ They are less a portfolio than a map of recurring interests: healthcare, AI, kno
 
 Work shaped by pharmacy practice, medication knowledge, and the need for clear clinical information at the right moment.
 
-{{< cards >}}
-  {{< card
-        link="https://shin13.gitbook.io/formulary"
-        title="Hospital Formulary"
-        subtitle="A digital formulary knowledge base created from hospital pharmacy practice."
-        image="images/formulary-screenshot.png"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-{{< /cards >}}
+### [Hospital Formulary](https://shin13.gitbook.io/formulary)
+
+A digital formulary knowledge base created from hospital pharmacy practice.
+
+![Hospital Formulary screenshot](/images/formulary-screenshot.png)
 
 **Why it exists**  
 I wanted medication information to be easier to search, maintain, and explain in daily clinical work.
@@ -42,15 +33,11 @@ Good information systems are not only about storing facts; they are about reduci
 
 Research traces, posters, talks, and other artifacts from trying to understand healthcare problems more clearly.
 
-{{< cards >}}
-  {{< card
-        link="https://drive.google.com/file/d/1aoCYwRUAKkCcLyD5Mkih-ah40TKlWsTy/view?usp=sharing"
-        title="Scientific Poster at ASHP 2023"
-        subtitle="Effect of an improved antimicrobial stewardship program at a regional hospital in Taiwan."
-        image="images/poster-ashp2023-screenshot.png"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
-  >}}
-{{< /cards >}}
+### [Scientific Poster at ASHP 2023](https://drive.google.com/file/d/1aoCYwRUAKkCcLyD5Mkih-ah40TKlWsTy/view?usp=sharing)
+
+Effect of an improved antimicrobial stewardship program at a regional hospital in Taiwan.
+
+![ASHP 2023 poster screenshot](/images/poster-ashp2023-screenshot.png)
 
 **Why it matters**  
 Research and presentation work helps me connect clinical questions with evidence, communication, and practical change.
