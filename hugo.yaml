@@ -72,10 +72,6 @@ menu:
       name: Search
       pageRef: /search
       weight: 5
-    - identifier: github
-      name: GitHub
-      url: "https://github.com/shin13"
-      weight: 6
 
 params:
   env: production
@@ -83,7 +79,7 @@ params:
   description: "Shin Li's personal home on the internet — notes, projects, and current focus across clinical pharmacy, AI systems, research, teaching, and personal knowledge work."
   keywords: [Shin Li, clinical pharmacy, healthcare AI, RAG, medical AI, personal knowledge management]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto
+  defaultTheme: light
   disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: false
@@ -99,7 +95,7 @@ params:
   comments: false
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "Hi, I’m Shin."
     subtitle: "I work between clinical pharmacy, AI systems, research, teaching, and personal knowledge work."
     buttons:

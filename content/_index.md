@@ -2,10 +2,19 @@
 title: Shin Li
 ---
 
-## Start here
+## Hi, I'm Shin 👋
 
-[Now](/now/) is the most current snapshot of my work, learning, and life.
+I enjoy learning and solving real-world problems in systematic, efficient, and elegant ways.
 
-[Notes](/notes/) are where I collect essays, technical notes, paper reflections, and field notes.
+- 🔭 Currently working on
+  - AI-Powered CXR Report Generator
+  - building knowledge databases at scale using RAG
+  - building AI infrastructure for healthcare organizations
+- 🌱 Currently exploring
+  - Microsoft Agent Framework (MAF)
+  - ML/AI application development
+  - educational AI grounded in learning theory
+- 📫 Contact: [soobahorn@gmail.com](mailto:soobahorn@gmail.com)
+- ⚡ Fun fact: I’m a foodie who also enjoys hiking across Taiwan’s mountain trails.
 
-[Projects](/projects/) are traces of things I’ve built, organized, studied, or kept returning to.
+Feel free to visit my [website](https://shin13.github.io/home).

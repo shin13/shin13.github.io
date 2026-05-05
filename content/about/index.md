@@ -32,3 +32,9 @@ I also care about music, reading, exercise, personal knowledge systems, and livi
 ## What this site is
 
 This site is not a résumé or a replacement for LinkedIn. It is my personal home on the internet: a place for what I’m focused on, what I’m learning, what I’ve built, and the questions I keep returning to.
+
+## Contact
+
+- Email: [soobahorn@gmail.com](mailto:soobahorn@gmail.com)
+- LinkedIn: [linkedin.com/in/shin-li](https://www.linkedin.com/in/shin-li/)
+- GitHub: [github.com/shin13](https://github.com/shin13)
