@@ -1,7 +1,11 @@
 # Configuration
 baseURL: https://shin13.github.io/
-languageCode: en-us
-title: Shin Li 
+locale: en-US
+title: Shin Li
+
+author:
+  name: Shin Li
+  email: soobahorn@gmail.com
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -20,12 +24,12 @@ outputs:
 defaultContentLanguage: en
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
     title: Shin Li
   zh-tw:
-    languageName: 繁體中文
-    languageCode: zh-TW
+    label: 繁體中文
+    locale: zh-TW
     weight: 2
     title: 李芯  
   # zh-cn:
@@ -54,21 +58,21 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 1
     - identifier: now
       name: Now
       pageRef: /now
+      weight: 1
+    - identifier: notes
+      name: Notes
+      pageRef: /notes
       weight: 2
     - identifier: project
-      name: Project
+      name: Projects
       pageRef: /projects
       weight: 3
-    - identifier: blog
-      name: Blog
-      pageRef: /blogs
+    - identifier: about
+      name: About
+      pageRef: /about
       weight: 4
     # - identifier: documentation
     #   name: Documentation
@@ -90,18 +94,27 @@ menu:
       params:
         type: separator
       weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
     - identifier: now
       name: "Now"
       pageRef: "/now"
-      # name: "Hugo Docs ↗"
-      # url: "https://gohugo.io/documentation/"
+      weight: 2
+    - identifier: notes
+      name: "Notes"
+      pageRef: "/notes"
       weight: 3
+    - identifier: projects
+      name: "Projects"
+      pageRef: "/projects"
+      weight: 4
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 5
 
 params:
+  author:
+    name: Shin Li
+    email: soobahorn@gmail.com
 #   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
   navbar:

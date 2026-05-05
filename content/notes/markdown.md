@@ -1,5 +1,7 @@
 ---
 title: Markdown Syntax Guide
+aliases:
+  - /blogs/markdown/
 date: 2024-09-01T05:34:09+08:00
 authors:
   - name: Shin

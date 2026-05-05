@@ -3,21 +3,32 @@ title: About
 toc: false
 ---
 
-I am a developer who was a senior clinical pharmacist with a strong background in hospital pharmacy. 
+I’m Shin Li, a pharmacist, engineer, healthcare AI researcher, educator, and lifelong learner based in Taipei.
 
-I leverage Python for analytics, backend development, and automation. My focus spans patient care, research, and teaching, driven by a passion for using IT tools to optimize performance and value. 
+I spend much of my time at the edges between domains: clinical pharmacy and software, healthcare workflows and AI systems, research and teaching, structure and creativity. I like making complex things easier to understand, and I care about tools that are not only technically interesting, but also useful in real clinical and human contexts.
 
-Colleagues know me as _"a good explainer,"_ _"eager to learn,"_ and adept at _handling challenges_. I thrive under pressure and adapt to change, seeking a dynamic team where I can contribute meaningfully.
+## Threads in my life
 
+### Healthcare and pharmacy
 
-## Workplace Value
-- Commit to producing high-quality work and passionately support each other’s growth.
-- Share knowledge and skills to enhance the overall capabilities of the team.
-- Encourage open and clear communication to foster an engaging and efficient work environment.
+My background is in pharmacy and clinical practice. That experience shapes how I think about healthcare technology: real workflows are messy, context matters, and good tools should respect professional judgment rather than replace it.
 
+### AI, data, and systems
 
-## Achievement
-With a patient-centered approach, I excels in cross-disciplinary communication and has received several accolades, including:
-- Silver Award for Best Poster at FAPA 2016
-- Outstanding Poster Presentation at the Taiwan Pharmaceutical Joint Annual Conference 2021
-- Excellent Clinical Teacher at Taiwan Adventist Hospital (2023)
+I work with LLMs, retrieval-augmented generation, healthcare data standards, documentation automation, and evaluation methods for medical AI. I’m especially interested in systems that connect clinical knowledge with reliable, testable, and practical workflows.
+
+### Research and knowledge work
+
+I read, write, summarize, and organize ideas as a way to think. Research papers, technical documentation, project notes, and teaching materials all become part of the same larger practice: turning scattered information into clearer understanding.
+
+### Teaching and explaining
+
+I enjoy helping people learn difficult things. Colleagues have often described me as a good explainer, and I see teaching as one of the best ways to test whether I truly understand something.
+
+### Life outside work
+
+I also care about music, reading, exercise, personal knowledge systems, and living with more clarity and less noise. This website keeps space for those parts too.
+
+## What this site is
+
+This site is not a résumé or a replacement for LinkedIn. It is my personal home on the internet: a place for what I’m focused on, what I’m learning, what I’ve built, and the questions I keep returning to.

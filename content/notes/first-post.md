@@ -1,5 +1,7 @@
 ---
 title: First Post
+aliases:
+  - /blogs/first-post/
 date: 2024-09-01T00:08:39+08:00
 authors:
   - name: Shin

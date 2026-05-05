@@ -3,77 +3,59 @@ title: Shin Li
 layout: hextra-home
 ---
 
-
-{{< hextra/hero-badge  link="contact">}}
+{{< hextra/hero-badge link="now" >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Connect</span>
+  <span>Currently / Now</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
-    
+
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Hi, I'm Shin&nbsp;<br class="sm:hx-block hx-hidden" />
+  Hi, I’m Shin.
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-12">
+<div class="hx-mb-10">
 {{< hextra/hero-subtitle >}}
-  Welcome to my website!&nbsp;<br class="sm:hx-block hx-hidden" />
-  You’ll find a collection of my works and thoughts here.&nbsp;<br class="sm:hx-block hx-hidden" />
-  Feel free to look around! :)
+  I work between clinical pharmacy, AI systems, research, teaching, and personal knowledge work.&nbsp;<br class="sm:hx-block hx-hidden" />
+  This is my personal home on the internet — a place for my current focus, notes, projects,&nbsp;<br class="sm:hx-block hx-hidden" />
+  and the questions I keep returning to.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-6">
-{{< hextra/hero-button text="Get Started" link="about" >}}
+<div class="hx-mb-12 hx-flex hx-flex-col sm:hx-flex-row hx-gap-3 hx-justify-center">
+  {{< hextra/hero-button text="What I’m doing now" link="now" >}}
+  {{< hextra/hero-button text="Read notes" link="notes" style="secondary" >}}
 </div>
 
-<!-- <div class="hx-mt-6"></div>
+<div class="hx-mt-8"></div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Fast and Full-featured"
-    subtitle="Simple and easy to use, yet powerful and feature-rich."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-doc.webp"
-    imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    title="Healthcare & Pharmacy"
+    subtitle="Clinical practice, medication knowledge, healthcare workflows, and the lived complexity of patient care."
+    icon="heart"
   >}}
   {{< hextra/feature-card
-    title="Markdown is All You Need"
-    subtitle="Compose with just Markdown. Enrich with Shortcode components."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="images/hextra-markdown.webp"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Full Text Search"
-    subtitle="Built-in full text search with FlexSearch, no extra setup required."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-search.webp"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Lightweight as a Feather"
-    subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
-  >}}
-  {{< hextra/feature-card
-    title="Responsive with Dark Mode Included"
-    subtitle="Looks great on different screen sizes. Built-in dark mode support, with auto-switching based on user's system preference."
-  >}}
-  {{< hextra/feature-card
-    title="Build and Host for Free"
-    subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
-  >}}
-  {{< hextra/feature-card
-    title="Multi-Language Made Easy"
-    subtitle="Create multi-language pages by just adding locales suffix to the Markdown file. Adding i18n support to your site is intuitive."
-  >}}
-  {{< hextra/feature-card
-    title="And Much More..."
+    title="AI & Systems"
+    subtitle="LLMs, retrieval, automation, FHIR, evaluation, and small tools that make work clearer."
     icon="sparkles"
-    subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
   >}}
-{{< /hextra/feature-grid >}} -->
+  {{< hextra/feature-card
+    title="Research & Teaching"
+    subtitle="Reading, explaining, presenting, and translating difficult ideas across clinical and technical communities."
+    icon="academic-cap"
+  >}}
+  {{< hextra/feature-card
+    title="Personal Knowledge Work"
+    subtitle="Notes, reflections, routines, and the quiet systems that help me think, learn, and live with more clarity."
+    icon="book-open"
+  >}}
+{{< /hextra/feature-grid >}}
+
+<div class="hx-mt-16 hx-mx-auto hx-max-w-3xl hx-text-center hx-text-gray-600 dark:hx-text-gray-400">
+  <p>
+    I like working at the edges between domains: pharmacy and software, clinical practice and AI systems,
+    research and teaching, structure and creativity.
+  </p>
+</div>

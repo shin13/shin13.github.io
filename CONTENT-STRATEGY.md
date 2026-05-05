@@ -17,7 +17,7 @@ This guide outlines your content strategy for writing about **papers you're read
 
 **Hugo Command:**
 ```bash
-hugo new blogs/paper-review-[topic-name].md --kind paper-review
+hugo new notes/paper-review-[topic-name].md --kind paper-review
 ```
 
 ### 2. Development Solutions (`dev-solution.md`)
@@ -31,7 +31,7 @@ hugo new blogs/paper-review-[topic-name].md --kind paper-review
 
 **Hugo Command:**
 ```bash
-hugo new blogs/dev-solution-[problem-name].md --kind dev-solution
+hugo new notes/dev-solution-[problem-name].md --kind dev-solution
 ```
 
 ### 3. General Posts (`default.md`)
@@ -45,7 +45,7 @@ hugo new blogs/dev-solution-[problem-name].md --kind dev-solution
 
 **Hugo Command:**
 ```bash
-hugo new blogs/[post-name].md
+hugo new notes/[post-name].md
 ```
 
 ## Content Capture Workflow
@@ -210,13 +210,13 @@ Track your content's impact:
 
 ```bash
 # Create new paper review
-hugo new blogs/paper-review-[topic].md --kind paper-review
+hugo new notes/paper-review-[topic].md --kind paper-review
 
 # Create new dev solution post
-hugo new blogs/dev-solution-[problem].md --kind dev-solution
+hugo new notes/dev-solution-[problem].md --kind dev-solution
 
 # Create general post
-hugo new blogs/[title].md
+hugo new notes/[title].md
 
 # Preview with drafts
 hugo server -D

@@ -1,7 +1,6 @@
 ---
 title: Now
-description: This is a page telling you what I am focused on at this point in their life.
-# toc: true
+description: What I am focused on at this point in life.
 layout: normal
 cascade:
   type: default
@@ -10,48 +9,41 @@ cascade:
 <div class="hx-mt-4"></div>
 
 <p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
-What I'm doing at the moment.</br>
-My current focus.
+What I’m doing now, what I’m paying attention to, and what is shaping my days.
 </p>
 
-### work
+The `/now` page is part of a movement started by [Derek Sivers](https://sive.rs/now) and [Gregory Brown](https://nownownow.com/about), encouraging people to keep a simple page about their current focus.
 
-- Explore new opportunities in data and computer science fields.
-- Build projects like __Trail Finder__ and __Pediatric Dosing Calculator__.
-- Work with my colleague, Ina, on a research project to be published at the [FAPA conference in Korea](https://www.fapa2024.com/), October 2024.
-- Prepare for two courses: one for a community in Neihu, Taipei, and another for the Department of Nutrition at United Hospital (my first invitation as a external lecturer!).
+## Work / Research
 
-### life
+- Building and studying clinically grounded AI systems for healthcare.
+- Working around LLMs, retrieval-augmented generation, medical AI evaluation, FHIR, and clinical documentation workflows.
+- Thinking about how AI tools can support clinical work without flattening clinical judgment.
 
-- Practicing the French horn more than guitar and drums, aiming for a concert next year.
-- Engaging in weight training to improve physique and energy.
-- Planning a trip to Spain this year.
-- Finished my final book club gathering at Taiwan Adventist Hospital in August and brainstorming future activities.
+## Learning
 
-### other
+- Deepening my understanding of AI agents, healthcare data standards, evaluation methods, and knowledge systems.
+- Reading papers and translating what I learn into notes, talks, and practical experiments.
+- Continuing to improve how I explain difficult ideas across clinical and technical communities.
 
-- Improve my basic legal knowledge.
-- Collaborate with friends on courses, study groups, and workshops for their team.
-- Make sure to follow up on any requested help.
+## Building
 
+- Small systems for organizing knowledge, tasks, research notes, and daily review.
+- Healthcare-related tools and prototypes that connect clinical knowledge with usable software.
+- This website as a calmer personal home for notes, projects, and current questions.
 
-#### _Focus Year-by-Year_ 
-_[source of the idea](https://garrickvanburen.com/now/)_
+## Life
 
-**2024**
-- Transitioning more work time from pharmacy practice to data work.
+- Practicing music, especially French horn, as a long-term craft outside work.
+- Keeping exercise, reading, reflection, and simple routines as anchors.
+- Looking for ways to live with more clarity, usefulness, and spaciousness.
 
-**2023**
-- Attended UC Commencement and trained under [Dr. David B. Haslam](https://www.cincinnatichildrens.org/bio/h/david-haslam) at Cincinnati Children's
-- Expanded my spiritual knowledge and practice.
-- Met Linda and all the team members.
+## Questions I keep returning to
 
-**2022**
-- Successfully defended my final thesis, with heartfelt thanks to my advisors, [Dr. Alex Lin](https://researchdirectory.uc.edu/p/lina), [Dr. Sobotka](https://researchdirectory.uc.edu/p/sobotkje), [Dr. Courter](https://www.linkedin.com/in/josh-courter-0a89aa57/), for their encouragement and support.
-
+- How can AI tools make healthcare work safer, clearer, and more humane?
+- What kinds of personal systems actually help people think and live better?
+- How can I move between pharmacy, software, research, teaching, and life without reducing myself to only one identity?
 
 ---
-_This page was inspired by [Derek Sivers](https://sive.rs/nowff)._
-_See more people's `/now` pages, please check [nownownow.com](https://nownownow.com/)_
 
-
+_Last updated: May 2026._
