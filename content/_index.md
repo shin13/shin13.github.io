@@ -21,18 +21,12 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mx-auto hx-mb-16 hx-max-w-xl hx-text-center hx-text-base hx-leading-8 hx-text-gray-600 dark:hx-text-gray-400">
-  <p>
-    This is my personal home on the internet — a quiet place for what I’m focused on, what I’m learning, what I’ve built, and the questions I keep returning to.
-  </p>
-</div>
-
-<div class="hx-mb-20 hx-flex hx-flex-col sm:hx-flex-row hx-gap-3 hx-justify-center">
+<div class="hx-my-24 hx-flex hx-flex-col sm:hx-flex-row hx-gap-5 hx-justify-center">
   {{< hextra/hero-button text="What I’m doing now" link="now" >}}
   {{< hextra/hero-button text="Read notes" link="notes" style="secondary" >}}
 </div>
 
-<div class="hx-mx-auto hx-max-w-2xl hx-text-left hx-text-gray-700 dark:hx-text-gray-300">
+<div class="hx-mx-auto hx-mt-4 hx-max-w-2xl hx-text-left hx-text-gray-700 dark:hx-text-gray-300">
   <p class="hx-mb-5 hx-text-sm hx-font-medium hx-uppercase hx-tracking-wide hx-text-gray-500 dark:hx-text-gray-400">
     Start here
   </p>
