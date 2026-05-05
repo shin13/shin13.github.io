@@ -1,107 +1,150 @@
 ---
-title: Optimizing Order Sets With a Large Language Model–Powered Multiagent System
-summary: A note on how a five-agent RAG system helped review and prioritize changes to hospital order sets, and what the evaluation revealed about accuracy versus usefulness.
+title: "[Research] Optimizing Order Sets With a Large Language Model–Powered Multiagent System"
+summary: "A note on how a five-agent RAG system helped review and prioritize changes to hospital order sets, and what the evaluation revealed about accuracy versus usefulness."
 date: 2025-11-18T09:42:00+08:00
-aliases:
-  - /blogs/optimizing-order-sets-with-large.html
-  - /blogs/optimizing-order-sets-with-large-language-model-powered-multiagent-system/
+authors:
+  - name: Shin
+    link: https://github.com/shin13
+    image: https://github.com/shin13.png
+categories:
+  - Research
 tags:
-  - research
+  - Paper Review
   - LLM
   - RAG
-  - multiagent
-  - clinical AI
-  - order sets
-  - healthcare
+  - Multiagent
+  - Clinical AI
+  - Order Sets
+  - Healthcare
   - JAMA Network Open
+draft: false
+excludeSearch: false
 ---
 
-# Optimizing Order Sets With a Large Language Model–Powered Multiagent System
+## Paper Overview
 
-This note is a cleaned-up conversion of my original blog post into the site’s Notes format.
+**Title:** Optimizing Order Sets With a Large Language Model–Powered Multiagent System 
 
-## Why this paper matters
+**Authors:** Liu S, Huang SS, McCoy AB, Wright AP, Horst S, Wright A 
 
-Hospital order sets are one of those quiet but important pieces of clinical infrastructure. They standardize care, reduce cognitive load, and help teams act consistently. But they also age quickly. Once evidence changes, keeping hundreds or thousands of order sets updated becomes a constant maintenance problem.
+**Journal:** JAMA Network Open 
 
-This paper is interesting because it does not treat LLMs as a single magical assistant. Instead, it explores a multiagent workflow with retrieval, verification, and summarization roles, which feels much closer to how a real expert team would work.
+**Year:** 2025 
 
-## Core idea
+**DOI:** https://doi.org/10.1001/jamanetworkopen.2025.33277 
 
-The system used five agents:
+## Why This Paper?
 
-- Content Critic Agent
-- Dynamic Search Agent
-- Knowledge Retrieval Agent
-- Medication Verification Agent
-- Suggestion Summarizer Agent
+I read this paper because it sits at the intersection of clinical pharmacy, healthcare workflow, and practical AI systems.
 
-The architecture combines retrieval-augmented generation with specialized agent roles so the system can:
+- Relevant to clinical decision support and order-set maintenance
+- Uses a multiagent LLM design instead of a single-model prompt
+- Shows the gap between factual correctness and actual clinical usefulness
+- Offers a good example of expert alignment in a high-stakes domain
 
-- search current literature and guidelines
-- check internal medical knowledge sources
-- verify medication facts
-- produce a structured list of suggestions
+This article is a cleaned-up conversion of my original blog post into the site’s Notes format.
 
-The goal was not simply to generate more recommendations, but to support more reliable order-set review at scale.
+<!--more-->
 
-## What the evaluation showed
+## Key Findings
 
-The key lesson is that factual correctness is not the same as clinical usefulness.
+### Main Contributions
 
-In the reviewed recommendations:
+1. The authors built a five-agent system for reviewing and improving hospital order sets.
+2. The system combined retrieval-augmented generation with domain-specific verification and summarization roles.
+3. A small set of physician-rated examples improved the judge model’s alignment with expert judgment.
 
-- 54% were rated highly accurate
-- 19% were rated highly useful
-- 16% were rated feasible
-- 12% were rated as having direct clinical impact
+### Methodology Highlights
 
-That gap matters. A suggestion can be technically right and still be too vague, poorly timed, or misaligned with local workflow to actually help.
+- **Approach:** LLM-powered multiagent workflow with retrieval, critique, verification, and summarization
+- **Data:** Hospital order sets plus internal and external medical knowledge sources
+- **Novel Aspects:** The system was designed to mimic how an expert team would distribute work rather than relying on a single general-purpose model
 
-## The important middle step: expert alignment
+## Selected Figures
 
-A second LLM was used as a judge, then calibrated with a small set of physician-labeled examples.
+### Figure 1. Overview of the multiagent system architecture and evaluation workflow
 
-Before calibration, agreement with physicians was poor. After only 96 expert-rated examples, agreement improved meaningfully.
+![Figure 1. Overview of the multiagent system architecture and evaluation workflow.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9d16/12457977/4009c0ec38f4/jamanetwopen-e2533277-g001.jpg)
 
-The practical result was useful:
+This is the best high-level figure in the paper. It shows the five-agent workflow and the two evaluation phases, so it immediately explains how the system was built and assessed.
 
-- 29% fewer total suggestions to review
-- 92% of useful suggestions preserved
+### Figure 2. LLM-as-a-judge alignment and customized filter
 
-That is a strong reminder that small amounts of high-quality expert feedback can substantially improve an AI system’s practical value.
+![Figure 2. LLM-as-a-judge process for creating a customized filter.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9d16/12457977/f9aff6a767a6/jamanetwopen-e2533277-g002.jpg)
 
-## My take
+This figure is important because it shows the calibration step: the authors did not stop at raw LLM scoring, but used physician feedback to align a usefulness filter with expert preferences.
 
-The most interesting part of this paper is not that the model got some recommendations right. It is that the paper exposes the real clinical problem: usefulness depends on context.
+### Figure 3. Physician ratings of AI-generated suggestions
 
-In healthcare, a suggestion only matters if it fits:
+![Figure 3. Distribution of physician ratings for AI-generated suggestions across accuracy, feasibility, usefulness, and impact.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9d16/12457977/3f3cbdd5bb83/jamanetwopen-e2533277-g003.jpg)
 
-- the workflow
-- the audience
-- the local practice pattern
-- the clinical moment
+This chart captures the paper’s core message well: suggestions can look accurate while still being less useful or feasible in practice.
 
-That makes this study less about “AI automation” and more about “AI as a calibrated support layer.”
+## My Takeaways
 
-## A useful framing
+### Immediately Applicable
 
-I think the best role for systems like this may be as a thought partner rather than a replacement for expert review.
+- A technically correct suggestion is not necessarily useful in a real workflow.
+- Small amounts of high-quality expert feedback can meaningfully improve an AI judge.
+- In healthcare, context matters as much as correctness.
+- LLM systems are often best framed as support layers, not replacements for expert review.
 
-Even an imperfect suggestion can be valuable if it triggers a better question, for example:
+### Future Exploration
 
-- Should this order set include a lab check?
-- Is a missing item actually a workflow gap?
-- What evidence or local practice should change?
+- Compare multiagent and single-agent approaches for order-set review
+- Evaluate whether local workflow alignment improves clinical adoption
+- Study how much expert calibration is enough before diminishing returns
 
-That kind of prompting can help experts notice blind spots they might otherwise miss.
+## Questions & Critiques
+
+### Questions Raised
+
+1. How generalizable is this setup across institutions with different workflows and knowledge bases?
+2. What is the best way to measure usefulness beyond physician ratings?
+
+### Potential Limitations
+
+- Single-center context may limit generalizability
+- Useful suggestions can still be missed if the workflow is too local or vague
+- The study emphasizes practical review efficiency more than end-to-end patient outcome impact
+
+## Implementation Ideas
+
+### For Current Projects
+
+- Project: clinical AI decision support workflows
+  - Application: use the paper’s expert-alignment idea for filtering or ranking recommendations
+  - Timeline: when reviewing retrieval or recommendation pipelines
+
+### New Project Possibilities
+
+- A lightweight expert-alignment layer for clinical suggestion ranking
+- A workflow for turning raw AI suggestions into reviewable, context-aware recommendations
+
+## Related Work
+
+### Papers to Read Next
+
+- A framework for human evaluation of large language models in healthcare
+- Evaluation of generative large language models in stroke care
+
+### Connections to Previous Reading
+
+- Connects to other research notes on healthcare LLM evaluation, RAG systems, and human review workflows
+
+## Rating & Recommendation
+
+**My Rating:** ⭐⭐⭐⭐☆
+
+**Recommend for:**
+- Healthcare professionals working on clinical decision support
+- Researchers studying LLM evaluation in medicine
+- Engineers building RAG or multiagent workflows
+- Anyone interested in expert alignment for high-stakes AI
+
+**Time Investment:** A few hours to read, extract, and rewrite into note form
 
 ## Reference
 
 - Liu S, Huang SS, McCoy AB, Wright AP, Horst S, Wright A. Optimizing Order Sets With a Large Language Model–Powered Multiagent System. JAMA Network Open. 2025;8(9):e2533277.
 - DOI: https://doi.org/10.1001/jamanetworkopen.2025.33277
-
-## Source note
-
-Original post: https://soobahorn.blogspot.com/2025/11/optimizing-order-sets-with-large.html
-

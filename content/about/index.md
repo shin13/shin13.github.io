@@ -29,10 +29,6 @@ I enjoy helping people learn difficult things. Colleagues have often described m
 
 I also care about music, reading, exercise, personal knowledge systems, and living with more clarity and less noise. This website keeps space for those parts too.
 
-## What this site is
-
-This site is not a résumé or a replacement for LinkedIn. It is my personal home on the internet: a place for what I’m focused on, what I’m learning, what I’ve built, and the questions I keep returning to.
-
 ## Contact
 
 - Email: [soobahorn@gmail.com](mailto:soobahorn@gmail.com)

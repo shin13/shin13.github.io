@@ -1,5 +1,5 @@
 ---
-title: "Solving Hugo Module Resolution Issues with Traditional Chinese Content"
+title: "[Dev] Solving Hugo Module Resolution Issues with Traditional Chinese Content"
 aliases:
   - /blogs/hugo-multilingual-build-fix/
 date: 2025-01-02T14:30:00+08:00

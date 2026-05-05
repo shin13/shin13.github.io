@@ -17,9 +17,13 @@ summary: "Key takeaways from [Paper Title] by [Authors]"
 ## Paper Overview
 
 **Title:** [Full Paper Title]
+
 **Authors:** [Author names]
+
 **Journal/Conference:** [Publication venue]
+
 **Year:** [Publication year]
+
 **DOI/Link:** [Direct link to paper]
 
 ## Why This Paper?

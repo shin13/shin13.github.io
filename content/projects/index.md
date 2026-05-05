@@ -39,12 +39,6 @@ Effect of an improved antimicrobial stewardship program at a regional hospital i
 
 ![ASHP 2023 poster screenshot](/images/poster-ashp2023-screenshot.png)
 
-**Why it matters**  
-Research and presentation work helps me connect clinical questions with evidence, communication, and practical change.
-
-**What it connects**  
-Clinical pharmacy, antimicrobial stewardship, research communication, and teaching.
-
 ## AI and automation experiments
 
 Small systems and prototypes around healthcare AI, retrieval, documentation, and workflow automation. Some are public; many are still private, internal, or evolving.

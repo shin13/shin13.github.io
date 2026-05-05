@@ -11,7 +11,7 @@ author:
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 services:
   googleAnalytics:
