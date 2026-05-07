@@ -4,11 +4,9 @@ description: Things I’ve built, organized, studied, or kept returning to.
 ShowToc: false
 ---
 
-Things I’ve built, organized, studied, or kept returning to.
+These products / projects, some are public tools, some are research traces, and some are small systems that helped me understand a problem better.
 
-These are not only finished products. Some are public tools, some are research traces, and some are small systems that helped me understand a problem better.
-
-They are less a portfolio than a map of recurring interests: healthcare, AI, knowledge systems, teaching, and the practical work of making complex things clearer.
+They are a map of recurring interests: healthcare, AI, knowledge systems, teaching, and the practical work of making complex things clearer.
 
 ## Healthcare knowledge systems
 

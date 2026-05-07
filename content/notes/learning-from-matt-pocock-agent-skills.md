@@ -43,7 +43,9 @@ Matt describes coding agents as a “fleet of middling to good engineers” with
 
 That framing feels honest. If agents forget context, then our process must carry the context. Skills give the agent a path to follow: clarify, document, slice, test, and improve the architecture.
 
-A small reflective question stayed with me: if an agent mirrors the quality of the process around it, what kind of engineer am I teaching it to become?
+I started to wonder.
+
+> If an agent mirrors the quality of the process around it, what kind of engineer am I teaching it to become?
 
 ## `grill-me`: ask before building
 
@@ -83,8 +85,6 @@ The rhythm is simple:
 4. Run the test.
 5. Refactor after green.
 
-What would coding feel like if every agent action had to pass through a small gate of truth?
-
 ## `improve-codebase-architecture`: make the system legible
 
 `improve-codebase-architecture` feels especially powerful to me.
@@ -103,16 +103,13 @@ The agent asked better questions. It wrote with more context. It decomposed work
 
 That is the deeper lesson for me. Agentic coding is a collaborative system: human judgment, written process, tests, and architecture working together.
 
-## Useful links
+## Resources
 
 - Matt’s article: [5 Agent Skills I Use Every Day](https://www.aihero.dev/5-agent-skills-i-use-every-day)
 - AI Hero: [https://www.aihero.dev/](https://www.aihero.dev/)
 - Matt Pocock’s personal site: [https://www.mattpocock.com/](https://www.mattpocock.com/)
 - Skills collection: [AI Skills for Real Engineers](https://www.aihero.dev/skills)
 - GitHub repository: [mattpocock/skills](https://github.com/mattpocock/skills)
-- `grill-me`: [Stress-Test a Plan Before You Build](https://www.aihero.dev/skills-grill-me)
-- `to-prd`: [Turn Resolved Context Into a PRD](https://www.aihero.dev/skills-to-prd)
-- `to-issues`: [Break a PRD Into Vertical-Slice GitHub Issues](https://www.aihero.dev/skills-to-issues)
-- `tdd`: [Red, Green, Refactor for Agentic Coding](https://www.aihero.dev/skills-tdd)
-- YouTube video I found useful: [https://www.youtube.com/watch?v=-QFHIoCo-Ko](https://www.youtube.com/watch?v=-QFHIoCo-Ko)
-- YouTube video I found useful: [https://www.youtube.com/watch?v=v4F1gFy-hqg](https://www.youtube.com/watch?v=v4F1gFy-hqg)
+- YouTube
+  - [Full Walkthrough: Workflow for AI Coding — Matt Pocock](https://www.youtube.com/watch?v=-QFHIoCo-Ko)
+  - ["Software Fundamentals Matter More Than Ever" — Matt Pocock](https://www.youtube.com/watch?v=v4F1gFy-hqg)
