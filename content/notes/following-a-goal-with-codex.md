@@ -1,7 +1,7 @@
 ---
 title: "[Dev] Following a Goal with Codex (/goal)"
 summary: "A practical note on OpenAI Codex's experimental /goal workflow: what it is, when it fits, how I would write it, and what to watch out for."
-date: 2026-05-12T09:30:00+08:00
+date: 2026-05-12T06:00:00+08:00
 authors:
   - name: Shin
     link: https://github.com/shin13
