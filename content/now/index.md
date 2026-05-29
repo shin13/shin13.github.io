@@ -16,34 +16,35 @@ The `/now` page is part of a movement started by [Derek Sivers](https://sive.rs/
 
 ## Work / Research
 
-- Building and studying clinically grounded AI systems for healthcare.
-- Working around LLMs, retrieval-augmented generation, medical AI evaluation, FHIR, and clinical documentation workflows.
-- Thinking about how AI tools can support clinical work without flattening clinical judgment.
+- Building clinically grounded AI for healthcare.
+- Working on LLMs, retrieval-augmented generation, evaluation, FHIR, and clinical documentation.
+- I care about AI that supports clinical judgment instead of flattening it.
 
 ## Learning
 
-- Deepening my understanding of AI agents, healthcare data standards, evaluation methods, and knowledge systems.
-- Reading papers and translating what I learn into notes, talks, and practical experiments.
-- Continuing to improve how I explain difficult ideas across clinical and technical communities.
+- Studying AI agents, healthcare data standards, evaluation methods, and knowledge systems.
+- Turning papers into notes, talks, and small experiments.
+- Trying to explain hard ideas simply.
 
 ## Building
 
-- Small systems for organizing knowledge, tasks, research notes, and daily review.
-- Healthcare-related tools and prototypes that connect clinical knowledge with usable software.
-- This website as a calmer personal home for notes, projects, and current questions.
+- Small systems for notes, tasks, research, and daily review.
+- Side projects that make Taiwan’s drug information easier to use with AI while preserving accuracy and completeness.
+- This site as a quiet home for my current work and questions.
 
 ## Life
 
-- Practicing music, especially French horn, as a long-term craft outside work.
-- Keeping exercise, reading, reflection, and simple routines as anchors.
-- Looking for ways to live with more clarity, usefulness, and spaciousness.
+- Looking for a home that is well-ventilated, easy to reach by transit, quiet, and surrounded by greenery.
+- Playing fingerstyle guitar. I like Sungha Jung and Masaaki Kishibe.
+- Keeping exercise, reading, and reflection as simple anchors.
 
 ## Questions I keep returning to
 
-- How can AI tools make healthcare work safer, clearer, and more humane?
-- What kinds of personal systems actually help people think and live better?
-- How can I move between pharmacy, software, research, teaching, and life without reducing myself to only one identity?
+- How can I use AI to create value for myself?
+- How can I use AI to level myself up?
+- What is real AI-human collaboration?
+- I think using an LLM is using a tool, not collaborating with it.
 
 ---
 
-_Last updated: May 2026._
+_Last updated: May 29, 2026._
