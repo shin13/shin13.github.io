@@ -8,6 +8,26 @@ These products / projects, some are public tools, some are research traces, and 
 
 They are a map of recurring interests: healthcare, AI, knowledge systems, teaching, and the practical work of making complex things clearer.
 
+## Open source releases
+
+Recent public tools focused on Taiwan healthcare knowledge infrastructure, source-cited lookup, and AI-ready document pipelines.
+
+### [OpenTaiMed / taiwan-fda-mcp](https://github.com/shin13/opentaimed)
+
+An MCP server for trustworthy Taiwan drug-information lookup. It wraps the official TFDA APIs so AI assistants can fetch package inserts and drug-license data instead of guessing.
+
+- **Status**: shipped — `taiwan-fda-mcp` on PyPI (`v0.2.1`)
+- **Why it exists**: to make AI answers trace back to official TFDA text
+- **What it connects**: clinical pharmacy, official drug data, MCP clients, and source-cited assistant workflows
+
+### [nhi-knowledge-extractor](https://github.com/shin13/nhi-knowledge-extractor)
+
+A pipeline that converts Taiwan NHI medication regulation documents into RAG-ingestion-ready CSVs. It preserves hierarchy, reads tables directly, and keeps the token budget under control.
+
+- **Status**: released
+- **Why it exists**: to remove repeated manual fix-ups from each NHI update cycle
+- **What it connects**: healthcare regulation, structured document parsing, RAG ingestion, and reproducible data pipelines
+
 ## Healthcare knowledge systems
 
 Work shaped by pharmacy practice, medication knowledge, and the need for clear clinical information at the right moment.

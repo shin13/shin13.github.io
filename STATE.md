@@ -1,7 +1,7 @@
 # STATE.md — Project status and progress
 
-最後更新：2026-05-30
-目前狀態：網站已更新、建置驗證完成、已提交並推送到遠端，且已完成本次 closeout 文件整理。
+最後更新：2026-06-02
+目前狀態：本次已新增 Projects 頁的 open source releases 區塊，尚需完成 Hugo build 驗證與後續發布文規劃。
 
 ## How to use this file
 
